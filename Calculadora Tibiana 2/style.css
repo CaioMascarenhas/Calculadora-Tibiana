@@ -1,0 +1,81 @@
+
+        h1 {
+            font-weight: 200;
+            font-style: italic;
+            color: antiquewhite;
+            background-color: rgb(112, 36, 42);
+            margin-bottom: 50px;
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 30px;
+        }
+
+        body {
+            position: flex;
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            background-color: #300101d7;
+            background-image: url(tibia2.jpg);
+            background-size: cover;
+            background-blend-mode: lighten;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-y: 1px;
+            align-items: center;
+        }
+
+        input[type='text'] {
+            margin: 10px;
+            padding: 10px;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #e6e4e4d7;
+            box-shadow: 0px 0px 10px 0px rgb(6, 2, 22);
+            font-size: 16px;
+            width: 300px;
+            height: 25px;
+            outline: none;
+            transition: step-start;
+        }
+
+        input[type='text']:focus {
+            border: 5px solid #333;
+            box-shadow: 0px 0px 10px 0px #333;
+        }
+
+        p {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #resultado {
+            background-color: rgb(100, 35, 41);
+            color: antiquewhite;
+            margin: 10px;
+            font-size: 20px;
+            font-style: normal;
+            padding: 50px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 10px 0px rgb(175, 148, 148);
+            text-align: center;
+            opacity: 1;
+            transition: all 1.5s ease-in-out;
+            display:ruby-base-container;
+        }
+
+
+
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: rgb(54, 54, 82);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
